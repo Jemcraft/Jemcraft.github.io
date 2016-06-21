@@ -1093,3 +1093,23 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Custom */
+
+.emre-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url(/images/emre_profile.png) no-repeat;
+}
+
+.jay-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url(/images/jay_profile.png) no-repeat;
+}
