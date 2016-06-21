@@ -10,4 +10,10 @@ github_username:  Jemcraft
 
 # Build settings
 markdown: kramdown
-footer_words: Jemcraft are cool.
+footer_words: Get in touch. Send us an <a href="mailto:hello@jemcraft.co">email</a>.
+jay_bio: >
+    Jay is a Hennig. Jay is a Hennig. Jay is a Hennig. Jay is a Hennig.
+emre_bio: >
+    Emre is an Erdener. Emre is an Erdener. Emre is an Erdener.
+emre_email: emre@jemcraft.co
+jay_email: jay@jemcraft.co
