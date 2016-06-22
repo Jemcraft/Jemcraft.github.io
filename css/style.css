@@ -1097,19 +1097,19 @@
 /* Custom */
 
 .emre-image {
-	width: 400px;
-	height: 400px;
-	border-radius: 200px;
-	-webkit-border-radius: 200px;
-	-moz-border-radius: 200px;
-	background: url(/images/emre_profile.png) no-repeat;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/images/emre_profile_300.png) no-repeat;
 }
 
 .jay-image {
-	width: 400px;
-	height: 400px;
-	border-radius: 200px;
-	-webkit-border-radius: 200px;
-	-moz-border-radius: 200px;
-	background: url(/images/jay_profile.jpg) no-repeat;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/images/jay_profile_300.jpg) no-repeat;
 }
