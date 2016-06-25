@@ -1,0 +1,17 @@
+{
+	"metadata": [
+		{"name": "name", "label": "Name", "datatype": "string", "editable": false},
+		{"name": "RING", "label": "RING", "datatype": "string", "editable": true},
+		{"name": "WALK", "label": "WALK", "datatype": "string", "editable": true},
+		{"name": "SING", "label": "SING", "datatype": "string", "editable": true},
+		{"name": "SLEEP", "label": "SLEEP", "datatype": "string", "editable": true},
+	],
+
+	"data":[
+		{"id": 1, "values": {"name": "Frodo", "RING": "x", "WALK": "", "SING": "", "SLEEP": "x"}},
+		{"id": 2, "values": {"name": "Sam", "RING": "x", "WALK": "", "SING": "", "SLEEP": "x"}},
+		{"id": 3, "values": {"name": "Gollum", "RING": "x", "WALK": "", "SING": "", "SLEEP": "x"}},
+		{"id": 4, "values": {"name": "Gandalf", "RING": "x", "WALK": "", "SING": "", "SLEEP": "x"}},
+		{"id": 5, "values": {"name": "Sauron", "RING": "x", "WALK": "", "SING": "", "SLEEP": "x"}},
+	]
+}

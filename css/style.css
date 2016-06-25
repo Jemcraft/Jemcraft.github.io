@@ -1113,3 +1113,9 @@
 	-moz-border-radius: 150px;
 	background: url(/images/jay_profile_300.jpg) no-repeat;
 }
+
+/* Editablegrid */
+
+table.testgrid td.number { text-align: right; }
+input.invalid { background: red; color: #FDFDFD; }
+
