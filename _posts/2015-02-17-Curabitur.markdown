@@ -2,7 +2,7 @@
 layout: post
 ---
 <img src="{{ site.baseurl }}/images/pic03.jpg" class="fit image">
-Today was a great day.
+Today was a great day. I did eat an apple wtf.
 
 Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.
 
