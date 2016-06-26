@@ -19,9 +19,24 @@ function doValidate() {
     obj1 = exportGrid(editableGrid1);
     obj2 = exportGrid(editableGrid2);
     obj3 = exportGrid(editableGrid3);
-    $('#output').html(JSON.stringify(
-        {"assigns": obj1, "jobs": obj2, "users": obj3}
-    , null, "\t"));
+    obj = {"assigns": obj1, "jobs": obj2, "users": obj3};
+    $('#output').html(JSON.stringify(obj, null, "\t"));
+
+    $.ajax({
+        type: "POST",
+        url: "http://fbjobapp.heroku.com/validate",
+        data: JSON.stringify(obj),
+        contentType: 'application/json',
+        dataType: 'json',
+        error: function(data) {
+            alert("error");
+            console.log(data);
+        },
+        success: function(data) {
+            alert("success");
+            console.log(data);
+        }
+    });
 }
 
 function exportGrid(curGrid) {
