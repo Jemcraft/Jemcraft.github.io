@@ -12,7 +12,7 @@ layout: default
         <ul class="nav nav-tabs">
           <li class="active"><a href="#tab1" data-toggle="tab">Users</a></li>
           <li><a href="#tab2" data-toggle="tab">Jobs</a></li>
-          <li><a href="#tab3" data-toggle="tab">Assigns</a></li>
+          <li><a href="#tab3" data-toggle="tab">Assignments</a></li>
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="tab1">
@@ -24,16 +24,33 @@ layout: default
           <div class="tab-pane" id="tab3">
             <div id="assigns"></div>
             <div class="pull-right">
-              <button type="button" class="btn btn-default btn-sm">
-                <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Optimize
-              </button>
-              <button type="button" class="btn btn-default btn-sm">
+              <button id="validate" type="button" class="btn btn-default btn-md">
                 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Validate
               </button>
+              <button type="button" class="btn btn-default btn-md">
+                <!--<img src="favicon.ico" style="width: 15%"/> Optimize-->
+                <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Optimize
+              </button>
+              <div class="dropdown pull-right" style="margin-left: 3px">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Export
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li class="disabled"><a href="#">as CSV</a></li>
+                  <li class="disabled"><a href="#">as PDF</a></li>
+                  <li class="disabled"><a href="#">as SQL</a></li>
+                </ul>
+              </div>
             </div>
           </div>
+        </div>
+        <br><br><br>
+        <div class="grid">
+          <div class="row">
+            <div id="output"></div>
+          </div>
         </div>      
-      
     </div>
     </section>
     </div>

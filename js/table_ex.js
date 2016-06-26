@@ -2,7 +2,7 @@ function load_tables() {
 
     editableGrid1 = new EditableGrid("Assignments"); 
     editableGrid1.tableLoaded = function() { this.renderGrid("assigns", "testgrid grid-assigns table table-bordered"); };
-    editableGrid1.loadJSON("data/example_assign.json");
+    editableGrid1.loadJSON("data/example_assign.json");    
 
     editableGrid2 = new EditableGrid("Jobs"); 
     editableGrid2.tableLoaded = function() { this.renderGrid("jobs", "testgrid grid-jobs table table-bordered"); };
@@ -14,8 +14,27 @@ function load_tables() {
 
 }
 
+function doValidate() {
+    curGrid = editableGrid1;
+    obj1 = exportGrid(editableGrid1);
+    obj2 = exportGrid(editableGrid2);
+    obj3 = exportGrid(editableGrid3);
+    $('#output').html(JSON.stringify(
+        {"assigns": obj1, "jobs": obj2, "users": obj3}
+    , null, "\t"));
+}
+
+function exportGrid(curGrid) {
+    var obj = [];
+    for (i = 0; i < curGrid.getRowCount(); i++) { 
+        obj.push(curGrid.getRowValues(i));
+    }
+    return obj;
+}
+
 $( document ).ready(function() {
 
     load_tables();
+    $('#validate').click(doValidate);    
 
 });

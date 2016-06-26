@@ -1116,6 +1116,6 @@
 
 /* Editablegrid */
 
-table.testgrid td.number { text-align: right; }
+table.testgrid td.number { text-align: right; padding-right: 1em; }
 input.invalid { background: red; color: #FDFDFD; }
 
