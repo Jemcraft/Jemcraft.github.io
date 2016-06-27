@@ -1126,12 +1126,31 @@
 	max-width: 12%;
 	height: auto;
 }
+.footer-logo {
+	padding-top: 5px;
+	max-width: 100%;
+	height: auto;
+}
+.footer-blurb {
+	margin-right: 15px;
+    margin-left: -15px;
+}
 
 /*-- About --*/
 /*Spacer below Emre bio (on mobile)*/
 @media screen and (min-width: 769px) {
 	.mobile-break {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer-logo {
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 2.1em;
+		max-width: 15%;
+		height: auto;
 	}
 }
 
