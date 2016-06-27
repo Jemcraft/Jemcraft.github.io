@@ -24,5 +24,6 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0;
+		padding-top: 4em;
+		padding-bottom: 1em;
 	}
