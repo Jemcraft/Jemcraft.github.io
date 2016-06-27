@@ -2,6 +2,7 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
 
+
 /*
 	Ion by TEMPLATED
 	templated.co @templatedco
@@ -986,7 +987,7 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/ct.jpg");
+		background: url("../images/ct2.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -994,6 +995,7 @@
 		padding: 14em 0;
 		text-align: center;
 		position: relative;
+}
 	}
 
 		#banner:before {
@@ -1048,8 +1050,9 @@
 		}
 
 		#banner p {
-			font-size: 1.5em;
+			font-size: 1.4em;
 			margin-bottom: 2em;
+			color: #fff;
 		}
 
 			#banner p a {
@@ -1112,6 +1115,16 @@
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(/images/jay_profile_300.jpg) no-repeat;
+}
+
+.logo-image {
+	max-width: 35%;
+	height: auto;
+}
+.nav-logo {
+	padding-top: 9px;
+	max-width: 10%;
+	height: auto;
 }
 
 /* Editablegrid */
