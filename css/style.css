@@ -199,7 +199,7 @@
 		}
 
 		header.major h2 + p {
-			font-size: 1.5em;
+			font-size: 1.3em;
 			margin: -1em 0 2em 0;
 		}
 
@@ -447,7 +447,7 @@
 			display: inline-block;
 			margin: 0 0 1.25em 0;
 			color: #ffffff;
-			background: #629DD1;
+			background: #2ea8e0;
 			width: 3em;
 			height: 3em;
 			font-size: 2em;
@@ -987,7 +987,7 @@
 
 	#banner {
 		background-color: #666666;
-		background: url("../images/ct2.jpg");
+		background: url("../images/ct3.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1050,7 +1050,8 @@
 		}
 
 		#banner p {
-			font-size: 1.4em;
+			font-size: 1.3em;
+			padding-top: 5px;
 			margin-bottom: 2em;
 			color: #fff;
 		}
@@ -1122,8 +1123,8 @@
 	height: auto;
 }
 .nav-logo {
-	padding-top: 9px;
-	max-width: 10%;
+	padding-top: .5em;
+	max-width: 12%;
 	height: auto;
 }
 

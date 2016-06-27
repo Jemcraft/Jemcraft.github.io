@@ -62,3 +62,7 @@
 	#banner {
 		padding: 5em 2em 4em 2em;
 	}
+		.logo-image {
+			max-width: 80%;
+			height: auto;
+		}

@@ -60,6 +60,10 @@
 		#banner p {
 			font-size: 1.25em;
 		}
+		.logo-image {
+			max-width: 60%;
+			height: auto;
+		}
 
 /* Main */
 
