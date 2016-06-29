@@ -1223,9 +1223,10 @@
 	.footer-logo {
 		display: block;
 		margin: 0 auto;
-		padding-bottom: 2.1em;
 		max-width: 15%;
 		height: auto;
+		margin-top: -20px;
+		padding-bottom: 40px;
 	}
 	.arrow-down {
 		display: none;
@@ -1246,6 +1247,10 @@
 	.major h2 {
 		margin-bottom: 50px;
 	}
+	.6u .alt {
+		margin-bottom: 0;
+	}
+
 }
 /*------------*/
 
