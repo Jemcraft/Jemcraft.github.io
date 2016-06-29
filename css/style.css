@@ -1232,8 +1232,9 @@
 	    transform: skew(50deg);
 	}	
 	#wrapper {
+		height: 100%;
+		overflow-x: hidden !important;
 		width: 100%;
-		overflow-x: hidden;
 		position: fixed;
 	}
 }
