@@ -12,6 +12,7 @@
 /* Basic */
 
 	body {
+		width: 100%;
 		overflow-x: hidden;
 		background: #fff;
 	}
@@ -1185,6 +1186,8 @@
 	}
 }
 
+
+/* Mobile screens */
 @media screen and (max-width: 768px) {
 	.footer-logo {
 		display: block;
@@ -1227,6 +1230,10 @@
 	    -ms-transform: skew(50deg);
 	    transform: skew(50deg);
 	}	
+	#wrapper {
+		width: 100%;
+		overflow-x: hidden;
+	}
 }
 
 /* Editablegrid */
