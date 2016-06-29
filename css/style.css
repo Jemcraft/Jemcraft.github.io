@@ -12,6 +12,7 @@
 /* Basic */
 
 	body {
+		overflow-x: hidden;
 		background: #fff;
 	}
 
