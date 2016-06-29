@@ -1103,7 +1103,7 @@
 			color: #bbb;
 		}
 
-/*--------------------- Custom ---------------------*/
+/* --------------------- Custom --------------------- */
 .arrow-down {
 	background: #fff;
     position: relative;
@@ -1138,26 +1138,6 @@
     transform: skew(50deg);
 }			
 
-
-
-.emre-image {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(/images/emre-bio-pic.jpg) no-repeat; 
-}
-
-.jay-image {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(/images/jay_profile_300.jpg) no-repeat;
-}
-
 .logo-image {
 	max-width: 38%;
 	height: auto;
@@ -1176,12 +1156,28 @@
 	margin-right: 15px;
     margin-left: -15px;
 }
+/*-----------------------*/
 
+
+/* ------ Banner ------- */
+
+#banner ul li:nth-child(2) .button.alt {
+	box-shadow: 0px 0px 5px #001;
+	border: 1px solid #fff;
+}
+#banner ul li .button {
+	width: 1em;
+}
+
+
+/*-- About --*/
 #one {
 	padding-top: 45px;
 }
 
-/*-- About --*/
+
+
+/*-- Team --*/
 .minor h3 {
     margin-bottom: 0px;
     margin-top: 15px;
@@ -1189,16 +1185,40 @@
 .minor p {
 	margin-top: 0px;
 }
+#two {
+	padding: 4.5em 0 6em 0;
+}
+.emre-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/images/emre-bio-pic.jpg) no-repeat; 
+}
 
-/*Spacer below Emre bio (on mobile)*/
+.jay-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/images/jay_profile_300.jpg) no-repeat;
+}
+
+
+/* ------- Larger screens -------*/
 @media screen and (min-width: 769px) {
+	/*Spacer below Emre bio (on mobile)*/
 	.mobile-break {
 		display: none;
 	}
 }
+/*------------*/
 
 
-/* Mobile screens */
+
+/* ------- Mobile screens ------- */
 @media screen and (max-width: 768px) {
 	.footer-logo {
 		display: block;
@@ -1216,7 +1236,12 @@
 	.arrow-down:before {
 		display: none;
 	}	
+	#footer .copyright {
+		margin: 4em 0 0 0;
+	}
 }
+/*------------*/
+
 
 /* Editablegrid */
 
