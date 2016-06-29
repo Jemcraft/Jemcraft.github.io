@@ -1198,38 +1198,13 @@
 		height: auto;
 	}
 	.arrow-down {
-	background: #fff;
-    position: relative;
-    z-index: 100;
-    margin-top: 25px;
+		display: none;
 	}
 	.arrow-down:after {
-		content: "";
-	    position: absolute;
-	    height: 50px;
-	    width: 60%;
-	    top: -50px;
-	    background: #fff;
-	    right: -31px;
-	    -webkit-transform: skew(-50deg);
-	    -moz-transform: skew(-50deg);
-	    -o-transform: skew(-50deg);
-	    -ms-transform: skew(-50deg);
-	    transform: skew(-50deg);
+		display: none;
 	}
 	.arrow-down:before {
-	    content: "";
-	    position: absolute;
-	    height: 50px;
-	    width: 60%;
-	    top: -50px;
-	    background: #fff;
-	    left: -31px;
-	    -webkit-transform: skew(50deg);
-	    -moz-transform: skew(50deg);
-	    -o-transform: skew(50deg);
-	    -ms-transform: skew(50deg);
-	    transform: skew(50deg);
+		display: none;
 	}	
 }
 
