@@ -60,8 +60,11 @@
 /* Banner */
 
 	#banner {
-		padding: 5em 2em 4em 2em;
-	}
+    	padding-top: 110px;
+    	padding-bottom: 0;
+    	padding-left: 2em;
+    	padding-right: 2em;
+    }
 		.logo-image {
 			max-width: 80%;
 			height: auto;
