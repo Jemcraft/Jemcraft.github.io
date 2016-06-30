@@ -1222,7 +1222,7 @@
 		margin: 0 auto;
 		max-width: 15%;
 		height: auto;
-		margin-top: -20px;
+		margin-top: 0;
 		padding-bottom: 40px;
 	}
 	.arrow-down {
@@ -1250,6 +1250,12 @@
 
 }
 /*------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.footer-logo {
+		display: none;
+	}
+}
 
 
 /* Editablegrid */
