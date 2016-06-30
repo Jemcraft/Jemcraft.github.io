@@ -999,6 +999,11 @@
 		color: #d8d8d8;
 		padding: 14em 0;
 		text-align: center;
+		position: fixed;
+		z-index: -1;
+	}
+	.body-content {
+		padding-top: 40em;
 		position: relative;
 	}
 
@@ -1114,7 +1119,7 @@
     position: absolute;
     height: 40px;
     width: 51%;
-    top: -40px;
+    top: 37.5em;
     background: #fff;
     right: -31px;
     -webkit-transform: skew(-40deg);
@@ -1128,7 +1133,7 @@
     position: absolute;
     height: 40px;
     width: 51%;
-    top: -40px;
+    top: 37.5em;
     background: #fff;
     left: -31px;
     -webkit-transform: skew(40deg);
@@ -1251,6 +1256,9 @@
 	}
 	.6u .alt {
 		margin-bottom: 0;
+	}
+	.body-content {
+		padding-top: 30em;
 	}
 
 }
